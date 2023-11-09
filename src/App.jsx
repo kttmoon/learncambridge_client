@@ -1,0 +1,27 @@
+////////////////////////////
+// Global
+////////////////////////////
+
+import { Outlet } from "react-router-dom";
+
+////////////////////////////
+// Components
+////////////////////////////
+
+import NavBar from "./app/nav/NavBar";
+
+////////////////////////////
+// Body
+////////////////////////////
+
+function App() {
+  return (
+    <>
+      <NavBar />
+
+      <Outlet />
+    </>
+  );
+}
+
+export default App;
